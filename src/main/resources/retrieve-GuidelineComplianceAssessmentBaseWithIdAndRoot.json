@@ -1,0 +1,10 @@
+{
+  "productServiceReference" : "PRRF9000",
+  "complianceAuditGuidelineAssessmentReference" : "CAGAR1222",
+  "complianceAuditGuidelineAssessmentTaskRecord" : {},
+  "complianceAuditGuidelineAssessmentResult" : "Success",
+  "customerReference" : "CSRE3456",
+  "complianceAuditGuidelineReference" : "CAGR123",
+  "documentReference" : "DR123",
+  "businessUnitReference" : "BURE4534"
+}

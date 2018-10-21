@@ -1,0 +1,13 @@
+{
+  "complianceAuditGuidelineDefinition" : "CAGD123",
+  "complianceAuditGuidelineAssessmentReference" : "CAGAR123",
+  "complianceAuditAdvisoryTaskRecord" : {},
+  "ComplianceAuditGuidelinePenalties" : "penalty-1",
+  "complianceAuditGuidelineAccountability" : "CAGA1",
+  "complianceAuditGuidelineComplianceReporting" : {},
+  "complianceAuditAdvisoryTaskReference" : "CAATR123",
+  "customerReference" : "CR123",
+  "businessUnitEmployeeReference" : "BUER123",
+  "complianceAuditGuidelineReference" : "CAGR123",
+  "documentReference" : "DR123"
+}

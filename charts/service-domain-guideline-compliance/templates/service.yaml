@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "service-domain-guideline-compliance.fullname" . }}
+  labels:
+    app: {{ template "service-domain-guideline-compliance.name" . }}
+    chart: {{ template "service-domain-guideline-compliance.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "service-domain-guideline-compliance.name" . }}
+    release: {{ .Release.Name }}
